@@ -1,3 +1,32 @@
+# {
+#   "parser": "babel-eslint",
+#   "extends": "airbnb/base",
+#   "env": {
+#     "browser": true,
+#     "mocha": true,
+#     "node": true
+#   },
+#   "rules": {
+#     "quotes": [2, "single"],
+#     "eol-last": [0],
+#     "no-mixed-requires": [0],
+#     "no-underscore-dangle": [0]
+#   },
+#   {
+#   "plugins": [
+#     "react"
+#   ]
+# },
+# {
+#   "settings": {
+#     "react": {
+#       "createClass": "createClass", // Regex for Component Factory to use, default to "createClass"
+#       "pragma": "React",  // Pragma to use, default to "React"
+#       "version": "15.0" // React version, default to the latest React stable release
+#     }
+#   }
+# }
+
 {
   "parser": "babel-eslint",
   "extends": "airbnb/base",
@@ -12,18 +41,4 @@
     "no-mixed-requires": [0],
     "no-underscore-dangle": [0]
   }
-  {
-  "plugins": [
-    "react"
-  ]
-}
-{
-  "settings": {
-    "react": {
-      "createClass": "createClass", // Regex for Component Factory to use, default to "createClass"
-      "pragma": "React",  // Pragma to use, default to "React"
-      "version": "15.0" // React version, default to the latest React stable release
-    }
-  }
-}
 }
